@@ -9,7 +9,7 @@ description = "A script to activate Python virtual environments."
 readme = "README.md"
 
 authors = [
-  {name = "Kelocker", email = ""}
+  {name = "Kelocker", email = "thekelvin0fficials@gmail.com"}
 ]
 license = {text = "MIT"}
 dependencies = []
