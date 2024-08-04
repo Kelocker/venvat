@@ -1,0 +1,8 @@
+include README.md
+include LICENSE
+
+
+include src/venvat.ps1
+
+
+include src/__init__.py
