@@ -20,7 +20,7 @@ classifiers = [
 ]
 
 [project.scripts]
-venvat = "src:main"
+venvat = "src.main:main"
 
 [project.urls]
 Homepage = "https://github.com/Kelocker/venvat.git"
