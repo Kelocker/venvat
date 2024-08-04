@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/__init__.py
+src/venvat.ps1
+src/venvat.egg-info/PKG-INFO
+src/venvat.egg-info/SOURCES.txt
+src/venvat.egg-info/dependency_links.txt
+src/venvat.egg-info/entry_points.txt
+src/venvat.egg-info/top_level.txt
