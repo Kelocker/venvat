@@ -1,2 +1,2 @@
 [console_scripts]
-venvat = src:main
+venvat = src.main:main
