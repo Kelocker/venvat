@@ -1,10 +1,8 @@
-import subprocess
-import os
+"""
+venvat: A package to simplify the activation of Python virtual environments using a PowerShell script.
+Provides a command line tool 'venvat' that activates the virtual environment directly from the command line.
+"""
 
-def main():
-    venv_path = ".\\venv\\Scripts\\activate"
-    if os.path.exists(venv_path):
-        print("Activating virtual environment...")
-        subprocess.call(["powershell.exe", venv_path])
-    else:
-        print("Virtual environment activation script not found.")
+from .venvat_runner import main as venvat_main
+
+__all__ = ["venvat_main"]
