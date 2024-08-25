@@ -126,7 +126,7 @@ venvat --help
 
 
 ## Support
-For questions, issues, or support with venvat, please open an issue on the [GitHub issues page](https://github.com/Kelocker/venvat.git/issues).
+For questions, issues, or support with venvat, please open an issue on the [GitHub issues page](https://github.com/Kelocker/venvat/issues).
 
 ## How to Contribute
 Contributions are welcome! If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
