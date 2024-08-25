@@ -1,20 +1,30 @@
 import os
 
 def read_version():
+    """Reads the version number from a VERSION file."""
     with open("VERSION") as version_file:
-        return version_file.read().strip()
+        version = version_file.read().strip()
+    print(f"Read version: {version}")
+    return version
 
-def update_pyproject_version(version):
-    with open("pyproject.toml", "r") as file:
+def update_setuppy_version(version):
+    """Updates the version number in setup.py."""
+    updated = False
+    with open("setup.py", "r") as file:
         lines = file.readlines()
 
-    with open("pyproject.toml", "w") as file:
+    with open("setup.py", "w") as file:
         for line in lines:
-            if line.startswith("version ="):
-                file.write(f'version = "{version}"\n')
+            if "version=" in line:
+                file.write(f"    version='{version}',\n")
+                updated = True
             else:
                 file.write(line)
+    return updated
 
 if __name__ == "__main__":
     version = read_version()
-    update_pyproject_version(version)
+    if update_setuppy_version(version):
+        print(f"setup.py has been successfully updated to version {version}.")
+    else:
+        print("No version update required in setup.py.")
