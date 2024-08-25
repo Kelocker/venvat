@@ -1,4 +1,4 @@
 include README.md
 include LICENSE
-recursive-include venvat *.py
-include venvat/venvat.ps1
+include VERSION
+include scripts/venvat.ps1
