@@ -63,13 +63,15 @@ In no event shall the authors or contributors be held liable for any damages ari
 
 6. **Support and Maintenance**: The `venvat` package is provided with limited support. Users are encouraged to contribute to its development and report any issues via the project's issue tracker. However, there is no guarantee of timely fixes or updates.
 
-By using this package, you agree to these terms and conditions. Learn more in the [LICENSE](LICENSE.md).
+By using this package, you agree to these terms and conditions. Learn more in the [LICENSE](https://github.com/Kelocker/venvat/blob/main/LICENSE).
 
 
 ## Introduction
 Are you tired of typing long commands to activate Python virtual environments? **venvat** simplifies this process with a simple command. This tool is designed to streamline the activation of virtual environments, making your workflow more efficient.
 
-## Requirements
+## Installation
+
+### Requirements
 Before using **venvat**, ensure the following requirements are met:
 - **Python**: This tool requires Python 3.6 or newer. Install Python from [the official website](https://www.python.org/downloads/).
 - **Virtual Environment**: You should have a virtual environment already set up in your project. `venvat` is designed to activate these environments, not to create them.
@@ -109,7 +111,7 @@ venvat
 ```
 
 ### Specifying a Custom Virtual Environment
-If your virtual environment is named differently than the default `venv`, or if you wish to activate a different one, you can specify it directly:
+If your virtual environment is not named `venv`, you will need to configure it the first time you use `venvat`:
 
 ```
 venvat --venv your-env-name
