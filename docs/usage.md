@@ -67,9 +67,8 @@ If you encounter any issues that aren't covered here, feel free to reach out via
 ## Additional Resources
 
 - **[Setup Guide](./setup.md)**: If you haven't set up **venvat** yet, start with the setup guide.
-- **[API Reference](./api-reference.md)**: For detailed API documentation (if applicable).
 
 ---
 
 Thank you for using **venvat**! We hope this tool makes managing your Python environments easier and more efficient.
-```
+
