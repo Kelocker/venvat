@@ -20,11 +20,11 @@ To help you get started, we've organized the documentation into the following se
 
 ## Contributing
 
-We welcome contributions! If you'd like to contribute, please check out our [Contributing Guidelines](./CONTRIBUTING.md) and [Code of Conduct](./CODE_OF_CONDUCT.md) to get started.
+We welcome contributions! If you'd like to contribute, please check out our [Contributing Guidelines](https://github.com/Kelocker/venvat/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/Kelocker/venvat/blob/main/CODE_OF_CONDUCT.md) to get started.
 
 ## License
 
-This project is licensed under the [MIT License](./LICENSE).
+This project is licensed under the [MIT License](https://github.com/Kelocker/venvat/blob/main/LICENSE).
 
 ## Support
 
