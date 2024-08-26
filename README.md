@@ -35,6 +35,7 @@
     - [Installing venvat](#installing-venvat)
 5. [Activating Your Virtual Environment](#activating-your-virtual-environment)
     - [Specifying a Custom Virtual Environment](#specifying-a-custom-virtual-environment)
+6. [Security](#security)
 6. [Support](#support)
 7. [How to Contribute](#how-to-contribute)
 
@@ -127,6 +128,8 @@ For more feature, you can explore with:
 venvat --help
 ```
 
+## Security
+For information on how to report security vulnerabilities, please see our [Security Policy](./SECURITY.md).
 
 
 ## Support
