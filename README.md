@@ -14,10 +14,14 @@
   <a href="https://github.com/Kelocker/venvat/blob/main/.github/workflows/publish.yml">
     <img src="https://github.com/Kelocker/venvat/actions/workflows/publish.yml/badge.svg" alt="Publish Python Package"/>
   </a>
-<a href="https://github.com/Kelocker/venvat">
+  <a href="https://github.com/Kelocker/venvat">
     <img src="https://img.shields.io/github/repo-size/Kelocker/venvat.svg?style=flat-square" alt="Repo Size"/>
   </a>
+  <a href="https://pepy.tech/project/venvat">
+    <img src="https://static.pepy.tech/badge/venvat" alt="Downloads"/>
+  </a>
 </p>
+
 
 </div>
 
