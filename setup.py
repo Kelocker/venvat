@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='venvat',
-    version='0.2.18',
+    version='0.3.23',
     description='A script to activate Python virtual environments.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
