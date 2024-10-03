@@ -2,7 +2,6 @@ param(
     [string]$venvName
 )
 
-# Check for help flag before proceeding
 if ($venvName -eq "--help") {
     Write-Host "Usage: venvat [--venv VENV_NAME] [--reset]" -ForegroundColor Yellow
     Write-Host "If no VENV_NAME is provided, venvat will consider 'venv' as your virtual environment name." -ForegroundColor Yellow
@@ -10,7 +9,6 @@ if ($venvName -eq "--help") {
     exit
 }
 
-# Path to the config file
 $configPath = "venvat.config"
 
 function Safe-ReadConfig {
@@ -46,7 +44,6 @@ if ($venvName -eq "--venv") {
     }
 }
 
-# Reset venvat config
 if ($venvName -eq "--reset") {
     if (Test-Path $configPath) {
         Remove-Item $configPath -ErrorAction Ignore
@@ -57,27 +54,24 @@ if ($venvName -eq "--reset") {
     exit
 }
 
-# Determine virtual environment name
 if (-not $venvName -or $venvName -eq "") {
     $venvName = Safe-ReadConfig
     if (-not $venvName) {
-        $venvName = "venv"  # Default environment name
+        $venvName = "venv"
         Safe-WriteConfig $venvName
         Write-Host "No environment name provided, using default 'venv'." -ForegroundColor Yellow
     }
 }
 
-# Path to the virtual environment activation script
 $venvPath = ".\$venvName\Scripts\activate"
 
-# Check if the activation script exists
 if (Test-Path $venvPath) {
     Write-Host "Activating virtual environment '$venvName'..." -ForegroundColor Green
     & $venvPath
 } else {
     Write-Host "Virtual environment activation script not found at: $venvPath. Check the environment name and path." -ForegroundColor Red
     if (Test-Path $configPath) {
-        Remove-Item $configPath -ErrorAction Ignore  # Remove config if path is incorrect
+        Remove-Item $configPath -ErrorAction Ignore
         Write-Host "Invalid configuration removed." -ForegroundColor Yellow
     }
 }
