@@ -107,11 +107,11 @@ We are thrilled to announce that we are contributing to the global environment.
 ## Venvat Global
 
 <p align="center">
-  <img src="https://drive.google.com/uc?id=1Novbu8DEG1GoGINQK5pb19I2yGD40TzJ" alt="venvat-global-beta-version"/>
+  <img src="https://drive.google.com/uc?id=15e8BQvMFsyY1c-AM3S1vnUWQI8GI4u-7" alt="venvat-global-officials-version"/>
 </p>
 
 <p align="center">
-  <img src="https://drive.google.com/uc?id=1zH_oh-zisr8uPaBiFqWIta_M2UxnRb74" alt="global-venvat-beta-version now available for Linux and macOS"/>
+  <img src="https://drive.google.com/uc?id=1zH_oh-zisr8uPaBiFqWIta_M2UxnRb74" alt="global-venvat-officials-version now available for Linux and macOS"/>
 </p>
 
 ---
@@ -160,7 +160,7 @@ pip install venvat
 
 ## Activating Your Virtual Environment
 
-Once `venvat` is installed, you can easily activate your virtual environment. If you're using `venvat` for the first time or if you want to switch to a different virtual environment, you need to specify the name of your virtual environment.
+Once `venvat` is installed, you can easily activate your virtual environment.
 
 If your virtual environment is named `venv`, you can run:
 
@@ -168,9 +168,11 @@ If your virtual environment is named `venv`, you can run:
 venvat
 ```
 
+*Important* : Venvat recognise `venv` as default name of the virtual environment
+
 ### Specifying a Custom Virtual Environment
 
-If your virtual environment is not named `venv`, you will need to configure it the first time you use `venvat`:
+If your virtual environment is not named `venv`, you will need to configure it for the first time:
 
 ```
 venvat --venv your-env-name
