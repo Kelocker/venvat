@@ -221,9 +221,7 @@ source ~/.zshrc
 
 Restart your terminal to apply the changes.
 
-Now, `venvat
-
-` is available globally.
+Now, `venvat` is available globally.
 
 *Optional* To uninstall `venvat` package, run:
 
